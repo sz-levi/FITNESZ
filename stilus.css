@@ -57,11 +57,24 @@ body{
     height: 800px;
 }
 #tjobb{
-    position: relative;
-    left: 50px;
+    /* position: relative; */
+    /* left: 100px; */
+    float: right;
 }
 #tbal{
-    position: relative;
-    right: 50px;
-
+    /* position: relative; */
+    /* left: 42px; */
+    float: left;
+    margin-left: 42px;
+}
+#szolgaltatasok{
+    width: 300px;
+    line-height: 30px;
+}
+.clear{
+    clear: both;
+}
+#ul{
+    clear: both;
+    margin-top: 50px;
 }
