@@ -37,6 +37,7 @@ nav{
 }
 #bal{
     float: left;
+    margin-left: 50px;
 
 }
 .cim{
@@ -54,7 +55,7 @@ body{
     background: white;
     width: 900px;
     margin: auto;
-    height: 800px;
+    height: 750px;
 }
 #tjobb{
     /* position: relative; */
@@ -77,4 +78,24 @@ body{
 #ul{
     clear: both;
     margin-top: 50px;
+}
+form{
+    margin-left: 10px;
+    line-height: 30px;
+}
+#uzenet, #nev{
+    width:650px;
+    margin-bottom: 0px;
+}
+#wrapper2{
+    background: white;
+    width: 900px;
+    margin: auto;
+    height: 550px;
+}
+#wrapper3{
+    background: white;
+    width: 900px;
+    margin: auto;
+    height: 650px;
 }

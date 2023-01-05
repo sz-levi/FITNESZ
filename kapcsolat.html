@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css" type="text/css">
+    <title>Fitnesz</title>
 </head>
 <body>
-    
+    <div id="wrapper2">
+        <header>
+            <h1 class="koz">Izzó Fitnesz Klub</h1>
+            <h3 class="koz">Mottó:Gyere Gyakran Gyúrni;-)</h3>
+            <nav>
+                <div class="koz">
+                    <a href="http://127.0.0.1:5500/index.html" id="fo">Főoldal</a>
+                    <a href="http://127.0.0.1:5500/szolgaltatasok.html" id="szol">Szolgáltatások</a>
+                    <a href="http://127.0.0.1:5500/kapcsolat.html" id="kap">Kapcsolat</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p class="cim">Kapcsolat</p>
+                <form action="#" method="get">
+                    <div id="nev">
+                        <span>Ha kérédse van, írjon nekünk!</span><br>
+                        <label for="nev">Név</label><br>
+                        <input type="text" id="nev">
+                    </div>
+                    <div id="kerdes">
+                        <label for="szol">Melyik szolgáltatásunk keltette fle az érdeklődését?</label><br>
+                        <input type="radio" name="szol" id="konditerem"><label for="konditerem">Konditerem</label><br>
+                        <input type="radio" name="szol" id="uszoda"><label for="uszoda">Uszoda</label><br>
+                        <input type="radio" name="szol" id="szauna"><label for="szauna">Szauna</label>
+                    </div>
+                    <div id="uzenet">
+                        <label for="uzenet">Üzenet</label><br>
+                        <input type="text" name="uzenet" id="uzenet">
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Küld">
+                </form>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
