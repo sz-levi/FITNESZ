@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: yellow;
+}
+header{
+    background-image: url(kek_eg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.koz{
+    text-align: center;
+}
+#fo{
+    margin-right: 50px;
+}
+#szol{
+    margin-right: 50px;
+}
+nav{
+    background-image: url(menu_hatter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#none{
+    list-style: none;
+}
+.kek{
+    color: blue;
+}
+#jobb{
+    float: right;
+}
+#bal{
+    float: left;
+
+}
+.cim{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+main{
+    line-height: 35px;
+}
+body{
+    background: gray;
+}
+#wrapper{
+    background: white;
+    width: 900px;
+    margin: auto;
+    height: 800px;
+}
+#tjobb{
+    position: relative;
+    left: 50px;
+}
+#tbal{
+    position: relative;
+    right: 50px;
+
+}
